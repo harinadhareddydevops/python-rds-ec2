@@ -1,0 +1,7 @@
+[database]
+user=venkat
+password=venkat@1817
+host=flask-database.chai3ecerce4.sa-east-1.rds.amazonaws.com
+database=flask
+
+
