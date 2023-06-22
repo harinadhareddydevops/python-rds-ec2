@@ -22,4 +22,33 @@ mysql -h rds endpoint -u username -p
 use application_db;
 show databases;
 show tables;
+select * from user;
+
+
+
+Task: using python connect to mysql database and insert the data into database
+
+
+requirments:
+rds
+
+
+ec2
+--------
+sudo yum install python3 -y
+sudo yum install python3-pip -y
+sudo pip install flask ---------------------------------web application/server
+sudo dnf install mariadb105-server -y-------------------------databse connector installer
+sudo pip install mysql-connector-python ----------------------
+sudo pip install boto3--------------------- python code interact with aws services
+
+
+
+
+
+[database]
+user=admin
+password=hari1234
+harinadha.cfxfridk6air.us-east-1.rds.amazonaws.com
+database=python
 select * from users;
